@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7385"
-	"mapversion" "1"
+	"mapversion" "2"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,88 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "2"
 	"classname" "worldspawn"
-	"skyname" "sky_dust"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_dust"
+	solid
+	{
+		"id" "6"
+		side
+		{
+			"id" "13"
+			"plane" "(-1248 -352 96) (-1184 -352 96) (-1184 -496 96)"
+			"material" "DEV/DEV_MEASUREWALL01C"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14"
+			"plane" "(-1248 -496 32) (-1184 -496 32) (-1184 -352 32)"
+			"material" "DEV/DEV_MEASUREWALL01C"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15"
+			"plane" "(-1248 -352 96) (-1248 -496 96) (-1248 -496 32)"
+			"material" "DEV/DEV_MEASUREWALL01C"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16"
+			"plane" "(-1184 -352 32) (-1184 -496 32) (-1184 -496 96)"
+			"material" "DEV/DEV_MEASUREWALL01C"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17"
+			"plane" "(-1184 -352 96) (-1248 -352 96) (-1248 -352 32)"
+			"material" "DEV/DEV_MEASUREWALL01C"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "18"
+			"plane" "(-1184 -496 32) (-1248 -496 32) (-1248 -496 96)"
+			"material" "DEV/DEV_MEASUREWALL01C"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 163 184"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	solid
 	{
 		"id" "2"
@@ -179,13 +255,28 @@ world
 		}
 	}
 }
+entity
+{
+	"id" "14"
+	"classname" "info_player_terrorist"
+	"angles" "0 0 0"
+	"enabled" "1"
+	"origin" "-1312 -448 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1949.98 -1169.1 641.166]"
-		"look" "[-1941.97 -1148.87 625.457]"
+		"position" "[-1243.24 -788.887 282.723]"
+		"look" "[-1246.64 -765.855 269.375]"
 	}
 }
 cordons
