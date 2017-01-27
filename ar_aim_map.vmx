@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7385"
-	"mapversion" "8"
+	"mapversion" "12"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "8"
+	"mapversion" "12"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3376,8 +3376,8 @@ world
 		side
 		{
 			"id" "522"
-			"plane" "(-2944 -2416 1312) (-2944 464 1312) (-128 464 1312)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2944 -2416 1296) (-2944 464 1296) (-128 464 1296)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3387,8 +3387,8 @@ world
 		side
 		{
 			"id" "521"
-			"plane" "(-2944 464 1273.39) (-2944 464 1312) (-2944 -2416 1312)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2944 464 1264) (-2944 464 1296) (-2944 -2416 1296)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3398,8 +3398,8 @@ world
 		side
 		{
 			"id" "520"
-			"plane" "(-128 -2416 1273.39) (-128 -2416 1312) (-128 464 1312)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-128 -2416 1264) (-128 -2416 1296) (-128 464 1296)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3409,8 +3409,8 @@ world
 		side
 		{
 			"id" "519"
-			"plane" "(-128 464 1273.39) (-128 464 1312) (-2944 464 1312)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-128 464 1264) (-128 464 1296) (-2944 464 1296)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3420,8 +3420,8 @@ world
 		side
 		{
 			"id" "518"
-			"plane" "(-2944 -2416 1273.39) (-2944 -2416 1312) (-128 -2416 1312)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2944 -2416 1264) (-2944 -2416 1296) (-128 -2416 1296)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3431,8 +3431,8 @@ world
 		side
 		{
 			"id" "517"
-			"plane" "(-2944 464 1273.39) (-2944 -2416 1273.39) (-128 -2416 1273.39)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2944 464 1264) (-2944 -2416 1264) (-128 -2416 1264)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3453,8 +3453,8 @@ world
 		side
 		{
 			"id" "528"
-			"plane" "(-2944 464 -464) (-2944 -2416 -464) (-128 -2416 -464)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2944 464 -176) (-2944 -2416 -176) (-128 -2416 -176)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3464,8 +3464,8 @@ world
 		side
 		{
 			"id" "527"
-			"plane" "(-2944 -2416 -425.391) (-2944 -2416 -464) (-2944 464 -464)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2944 -2416 -144) (-2944 -2416 -176) (-2944 464 -176)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3475,8 +3475,8 @@ world
 		side
 		{
 			"id" "526"
-			"plane" "(-128 464 -425.391) (-128 464 -464) (-128 -2416 -464)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-128 464 -144) (-128 464 -176) (-128 -2416 -176)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3486,8 +3486,8 @@ world
 		side
 		{
 			"id" "525"
-			"plane" "(-2944 464 -425.391) (-2944 464 -464) (-128 464 -464)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2944 464 -144) (-2944 464 -176) (-128 464 -176)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3497,8 +3497,8 @@ world
 		side
 		{
 			"id" "524"
-			"plane" "(-128 -2416 -425.391) (-128 -2416 -464) (-2944 -2416 -464)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-128 -2416 -144) (-128 -2416 -176) (-2944 -2416 -176)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3508,8 +3508,8 @@ world
 		side
 		{
 			"id" "523"
-			"plane" "(-2944 -2416 -425.391) (-2944 464 -425.391) (-128 464 -425.391)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2944 -2416 -144) (-2944 464 -144) (-128 464 -144)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3530,8 +3530,8 @@ world
 		side
 		{
 			"id" "534"
-			"plane" "(-2944 -2416 1273.39) (-2944 -2416 -425.391) (-2944 464 -425.391)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2944 -2416 1264) (-2944 -2416 -144) (-2944 464 -144)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3541,8 +3541,8 @@ world
 		side
 		{
 			"id" "533"
-			"plane" "(-2944 464 1273.39) (-2944 464 -425.391) (-2928 464 -425.391)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2944 464 1264) (-2944 464 -144) (-2928 464 -144)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3552,8 +3552,8 @@ world
 		side
 		{
 			"id" "532"
-			"plane" "(-2928 -2416 -425.391) (-2944 -2416 -425.391) (-2944 -2416 1273.39)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2928 -2416 -144) (-2944 -2416 -144) (-2944 -2416 1264)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3563,8 +3563,8 @@ world
 		side
 		{
 			"id" "531"
-			"plane" "(-2928 -2416 1273.39) (-2944 -2416 1273.39) (-2944 464 1273.39)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2928 -2416 1264) (-2944 -2416 1264) (-2944 464 1264)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3574,8 +3574,8 @@ world
 		side
 		{
 			"id" "530"
-			"plane" "(-2928 464 -425.391) (-2944 464 -425.391) (-2944 -2416 -425.391)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2928 464 -144) (-2944 464 -144) (-2944 -2416 -144)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3585,8 +3585,8 @@ world
 		side
 		{
 			"id" "529"
-			"plane" "(-2928 464 1273.39) (-2928 464 -425.391) (-2928 -2416 -425.391)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2928 464 1264) (-2928 464 -144) (-2928 -2416 -144)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3607,8 +3607,8 @@ world
 		side
 		{
 			"id" "540"
-			"plane" "(-128 464 1273.39) (-128 464 -425.391) (-128 -2416 -425.391)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-128 464 1264) (-128 464 -144) (-128 -2416 -144)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3618,8 +3618,8 @@ world
 		side
 		{
 			"id" "539"
-			"plane" "(-144 464 -425.391) (-128 464 -425.391) (-128 464 1273.39)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-144 464 -144) (-128 464 -144) (-128 464 1264)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3629,8 +3629,8 @@ world
 		side
 		{
 			"id" "538"
-			"plane" "(-128 -2416 1273.39) (-128 -2416 -425.391) (-144 -2416 -425.391)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-128 -2416 1264) (-128 -2416 -144) (-144 -2416 -144)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3640,8 +3640,8 @@ world
 		side
 		{
 			"id" "537"
-			"plane" "(-144 464 1273.39) (-128 464 1273.39) (-128 -2416 1273.39)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-144 464 1264) (-128 464 1264) (-128 -2416 1264)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3651,8 +3651,8 @@ world
 		side
 		{
 			"id" "536"
-			"plane" "(-144 -2416 -425.391) (-128 -2416 -425.391) (-128 464 -425.391)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-144 -2416 -144) (-128 -2416 -144) (-128 464 -144)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3662,8 +3662,8 @@ world
 		side
 		{
 			"id" "535"
-			"plane" "(-144 -2416 1273.39) (-144 -2416 -425.391) (-144 464 -425.391)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-144 -2416 1264) (-144 -2416 -144) (-144 464 -144)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3684,8 +3684,8 @@ world
 		side
 		{
 			"id" "546"
-			"plane" "(-2928 464 -425.391) (-144 464 -425.391) (-144 464 1273.39)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2928 464 -144) (-144 464 -144) (-144 464 1264)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3695,8 +3695,8 @@ world
 		side
 		{
 			"id" "545"
-			"plane" "(-2928 446.857 1273.39) (-2928 464 1273.39) (-144 464 1273.39)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2928 446.857 1264) (-2928 464 1264) (-144 464 1264)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3706,8 +3706,8 @@ world
 		side
 		{
 			"id" "544"
-			"plane" "(-144 464 -425.391) (-2928 464 -425.391) (-2928 446.857 -425.391)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-144 464 -144) (-2928 464 -144) (-2928 446.857 -144)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3717,8 +3717,8 @@ world
 		side
 		{
 			"id" "543"
-			"plane" "(-2928 446.857 -425.391) (-2928 464 -425.391) (-2928 464 1273.39)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2928 446.857 -144) (-2928 464 -144) (-2928 464 1264)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3728,8 +3728,8 @@ world
 		side
 		{
 			"id" "542"
-			"plane" "(-144 464 1273.39) (-144 464 -425.391) (-144 446.857 -425.391)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-144 464 1264) (-144 464 -144) (-144 446.857 -144)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3739,8 +3739,8 @@ world
 		side
 		{
 			"id" "541"
-			"plane" "(-144 446.857 -425.391) (-2928 446.857 -425.391) (-2928 446.857 1273.39)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-144 446.857 -144) (-2928 446.857 -144) (-2928 446.857 1264)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3761,8 +3761,8 @@ world
 		side
 		{
 			"id" "552"
-			"plane" "(-144 -2416 -425.391) (-2928 -2416 -425.391) (-2928 -2416 1273.39)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-144 -2416 -144) (-2928 -2416 -144) (-2928 -2416 1264)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3772,8 +3772,8 @@ world
 		side
 		{
 			"id" "551"
-			"plane" "(-144 -2416 1273.39) (-2928 -2416 1273.39) (-2928 -2398.86 1273.39)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-144 -2416 1264) (-2928 -2416 1264) (-2928 -2398.86 1264)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3783,8 +3783,8 @@ world
 		side
 		{
 			"id" "550"
-			"plane" "(-2928 -2398.86 -425.391) (-2928 -2416 -425.391) (-144 -2416 -425.391)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2928 -2398.86 -144) (-2928 -2416 -144) (-144 -2416 -144)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -3794,8 +3794,8 @@ world
 		side
 		{
 			"id" "549"
-			"plane" "(-2928 -2416 1273.39) (-2928 -2416 -425.391) (-2928 -2398.86 -425.391)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2928 -2416 1264) (-2928 -2416 -144) (-2928 -2398.86 -144)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3805,8 +3805,8 @@ world
 		side
 		{
 			"id" "548"
-			"plane" "(-144 -2398.86 -425.391) (-144 -2416 -425.391) (-144 -2416 1273.39)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-144 -2398.86 -144) (-144 -2416 -144) (-144 -2416 1264)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3816,8 +3816,8 @@ world
 		side
 		{
 			"id" "547"
-			"plane" "(-2928 -2398.86 -425.391) (-144 -2398.86 -425.391) (-144 -2398.86 1273.39)"
-			"material" "SKYBOX/SKY_CS15_DAYLIGHT01_HDRLF"
+			"plane" "(-2928 -2398.86 -144) (-144 -2398.86 -144) (-144 -2398.86 1264)"
+			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3917,6 +3917,28 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "892"
+	"classname" "light_environment"
+	"_ambient" "255 255 255 20"
+	"_ambientHDR" "-1 -1 -1 1"
+	"_AmbientScaleHDR" "1"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"angles" "0 262 0"
+	"pitch" "0"
+	"SunSpreadAngle" "0"
+	"origin" "-1621.47 -1040 1152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -4742,8 +4764,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1565.31 -805.741 945.872]"
-		"look" "[-1547.95 -826.15 944.374]"
+		"position" "[-1467.06 -831.425 184.486]"
+		"look" "[-1491.57 -842.132 186.732]"
 	}
 }
 cordons
