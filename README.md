@@ -1,2 +1,0 @@
-# aircr_aimmap
-FirstAimMap
