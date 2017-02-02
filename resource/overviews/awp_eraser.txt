@@ -1,0 +1,7 @@
+"awp_eraser"
+{
+"material" "overviews/awp_eraser"
+"pos_x" "-3080"
+"pos_y" "1060"
+"scale" "4.0"
+}

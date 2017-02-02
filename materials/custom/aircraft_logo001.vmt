@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "custom/aircraft_logo001"
+	$translucent 1
+}
